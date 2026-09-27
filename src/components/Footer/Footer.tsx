@@ -1,0 +1,35 @@
+import twitter from "./../../img/icons/twitter.svg";
+import gitHub from "./../../img/icons/gitHub.svg";
+import vk from "./../../img/icons/vk.svg";
+import "./style.css";
+
+export const Footer = () => {
+    return (
+        <footer className="footer">
+			<div className="container">
+				<div className="footer__wrapper">
+					<ul className="social">
+						<li className="social__item">
+							<a href="https://vk.com/id792001441" target="_blank" rel="noreferrer">
+								<img src={vk} alt="Link" />
+							</a>
+						</li>
+						<li className="social__item">
+							<a href="https://x.com/cheradam2011" target="_blank" rel="noreferrer">
+								<img src={twitter} alt="Link" />
+							</a>
+						</li>
+						<li className="social__item">
+							<a href="https://github.com/AdamChereshniuk" target="_blank" rel="noreferrer">
+								<img src={gitHub} alt="Link" />
+							</a>
+						</li>
+					</ul>
+					<div className="copyright">
+						<p>© 2025 frontend-dev.com</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+    );
+};
