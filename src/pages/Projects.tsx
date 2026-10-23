@@ -14,7 +14,7 @@ export const Projects = () => {
 			<div className="container">
 				<h2 className="title-1">Проекты</h2>
 				<ul className="tabs">
-					<li className={`tab ${currentTab === "htmlCssJs" && "active"}`} onClick={() => setCurrentTab("htmlCssJs")}>HTML & CSS & JS</li>
+					<li className={`tab ${currentTab === "htmlCssJs" && "active"}`} onClick={() => setCurrentTab("htmlCssJs")}>Верстка</li>
 					<li className={`tab ${currentTab === "react" && "active"}`} onClick={() => setCurrentTab("react")}>ReactJS</li>
 					<li className={`tab ${currentTab === "wordpress" && "active"}`} onClick={() => setCurrentTab("wordpress")}>WordPress</li>
 				</ul>

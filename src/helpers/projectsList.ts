@@ -61,11 +61,23 @@ import all_for_investorBig from "./../img/projects/all_for_investor.png";
 import cakes from "./../img/projects/cakes.png";
 import cakesBig from "./../img/projects/cakes.png";
 
-import no_photo from "./../img/projects/no_photo.webp";
-import no_photoBig from "./../img/projects/no_photo.webp";
-
 import crm_react from "./../img/projects/crm_react.png";
 import crm_reactBig from "./../img/projects/crm_react.png";
+
+import lawyer from "./../img/projects/lawyer.png";
+import lawyerBig from "./../img/projects/lawyer.png";
+
+import simple from "./../img/projects/simple.png";
+import simpleBig from "./../img/projects/simple.png";
+
+import rumTibet from "./../img/projects/rumTibet.png";
+import rumTibetBig from "./../img/projects/rumTibet.png";
+
+import todo_list from "./../img/projects/todo_list.png";
+import todo_listBig from "./../img/projects/todo_list.png";
+
+import in_work from "./../img/projects/in_work.png";
+import in_workBig from "./../img/projects/in_work.png";
 
 export const projects: Project[] = [
 	// Html & Css & Js
@@ -105,7 +117,7 @@ export const projects: Project[] = [
 	{
 		id: "htmlCssJs-4",
 		title: "Loft House",
-		description: "Одностраничный сайт, созданные для обзора жилого района.",
+		description: "Одностраничный сайт, созданный для обзора жилого района.",
 		skills: "HTML & CSS, Figma",
 		tab: "HTML & CSS & JS",
 		img: loft_house,
@@ -149,7 +161,7 @@ export const projects: Project[] = [
 	{
 		id: "htmlCssJs-8",
 		title: "Leader CLassic",
-		description: "Одностраничный сайт инвестиционного брокера",
+		description: "Одностраничный сайт инвестиционного брокера.",
 		skills: "HTML, CSS, JS, Figma",
 		tab: "HTML & CSS & JS",
 		img: leader_classic,
@@ -202,6 +214,39 @@ export const projects: Project[] = [
 		liveSiteLink: "https://adamchereshniuk.github.io/TurKomanda/",
 		fromFreelance: true,
 	},
+	{
+		id: "htmlCssJs-13",
+		title: "Правозащитник",
+		description: "Одностраничный сайт юридической компании.",
+		skills: "HTML, CSS, Figma",
+		tab: "HTML & CSS & JS",
+		img: lawyer,
+		imgBig: lawyerBig,
+		gitHubLink: "https://github.com/AdamChereshniuk/Lawyer",
+		liveSiteLink: "https://adamchereshniuk.github.io/Lawyer/",
+	},
+	{
+		id: "htmlCssJs-14",
+		title: "Simple",
+		description: "Одностраничный сайт компании Simple.",
+		skills: "HTML, CSS, Figma",
+		tab: "HTML & CSS & JS",
+		img: simple,
+		imgBig: simpleBig,
+		gitHubLink: "https://github.com/AdamChereshniuk/Simple",
+		liveSiteLink: "https://adamchereshniuk.github.io/Simple/",
+	},
+	{
+		id: "htmlCssJs-15",
+		title: "РумТибет",
+		description: "Одностраничный сайт компании по подбору туров в горы.",
+		skills: "HTML, CSS, Figma",
+		tab: "HTML & CSS & JS",
+		img: rumTibet,
+		imgBig: rumTibetBig,
+		gitHubLink: "https://github.com/AdamChereshniuk/RumTibet",
+		liveSiteLink: "https://adamchereshniuk.github.io/RumTibet/",
+	},
 
 	// React
 	{
@@ -214,6 +259,7 @@ export const projects: Project[] = [
 		imgBig: vk_marusyaBig,
 		gitHubLink: "https://github.com/adamchereshniuk/VK-Marusya",
 		liveSiteLink: "https://adamchereshniuk.github.io/VK-Marusya/",
+		bigProject: true,
 	},
 	{
 		id: "react-2",
@@ -239,6 +285,17 @@ export const projects: Project[] = [
 	},
 	{
 		id: "react-4",
+		title: "PicVault",
+		description: "Фотохостинг для загрузки, хранения и просмотра изображений.",
+		skills: "ReactJS, SASS, TypeScript, Vite",
+		tab: "ReactJS",
+		img: in_work,
+		imgBig: in_workBig,
+		teamProject: true,
+		bigProject: true,
+	},
+	{
+		id: "react-5",
 		title: "Recipes App",
 		description: "Одностраничный десктопный сайт-блог рецептов.",
 		skills: "ReactJS, SASS, TypeScript, Vite, Pinia, Supabase",
@@ -249,7 +306,7 @@ export const projects: Project[] = [
 		liveSiteLink: "https://adamchereshniuk.github.io/Recipes-App/Recipes-App/",
 	},
 	{
-		id: "react-5",
+		id: "react-6",
 		title: "CRM",
 		description: "Десктопная CRM-система для управления заказами.",
 		skills: "ReactJS, SASS, TypeScript, Vite, Supabase",
@@ -260,7 +317,7 @@ export const projects: Project[] = [
 		liveSiteLink: "https://adamchereshniuk.github.io/CRM-React/",
 	},
 	{
-		id: "react-6",
+		id: "react-7",
 		title: "Все для инвестора",
 		description: "Десктопный сервис с полезными функциями для инвесторов.",
 		skills: "ReactJS, TypeScript, Vite, T-Invest API",
@@ -269,6 +326,28 @@ export const projects: Project[] = [
 		imgBig: all_for_investorBig,
 		gitHubLink: "https://github.com/AdamChereshniuk/All-For-Investor",
 		liveSiteLink: "https://adamchereshniuk.github.io/All-For-Investor/",
+	},
+	{
+		id: "react-8",
+		title: "ToDo List",
+		description: "Десктопный сервис для ведения задач.",
+		skills: "ReactJS, SASS, TypeScript, Vite, Supabase",
+		tab: "ReactJS",
+		img: todo_list,
+		imgBig: todo_listBig,
+		gitHubLink: "https://github.com/AdamChereshniuk/Todo-List",
+		liveSiteLink: "https://adamchereshniuk.github.io/Todo-List/",
+	},
+	{
+		id: "react-9",
+		title: "КудаУгодно",
+		description: "Веб-приложение для проверки готовности к путешествию.",
+		skills: "ReactJS, SASS, TypeScript, Vite",
+		tab: "ReactJS",
+		img: in_work,
+		imgBig: in_workBig,
+		teamProject: true,
+		bigProject: true,
 	},
 
 	// WordPress
@@ -294,12 +373,12 @@ export const projects: Project[] = [
 	},
 	{
 		id: "wordpress-3",
-		title: "Organic Food (в работе)",
+		title: "Organic Food",
 		description: "Одностраничный сайт ресторана.",
 		skills: "WordPress, Elementor",
 		tab: "WordPress",
-		img: no_photo,
-		imgBig: no_photoBig,
+		img: in_work,
+		imgBig: in_workBig,
 	},
 	{
 		id: "wordpress-4",
@@ -334,4 +413,6 @@ export interface Project {
 	gitHubLink?: string,
 	liveSiteLink?: string,
 	fromFreelance?: boolean,
+	teamProject?: boolean,
+	bigProject?: boolean,
 };

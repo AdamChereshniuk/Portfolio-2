@@ -23,7 +23,7 @@ export const ProjectPage = () => {
 
 					<div className="project-details__btns">
 						{project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
-						<BtnLiveSite link={project?.liveSiteLink || ""} />
+						{project.liveSiteLink && <BtnLiveSite link={project.liveSiteLink || ""} />}
 					</div>
 				</div>
 			</div>
