@@ -3,7 +3,7 @@ import { BtnLiveSite } from "../components/BtnLiveSite/BtnLiveSite";
 import { projects } from "../helpers/projectsList";
 
 export const ProjectPage = () => {
-    const id = window.location.pathname.replace("/Portfolio/project/", "");
+    const id = window.location.pathname.replace("/Portfolio-2/project/", "");
 	const project = projects.filter(project => project.id === id)[0];
 	document.title = `Проект ${project.title}`;
 	
