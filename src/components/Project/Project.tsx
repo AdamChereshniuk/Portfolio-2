@@ -4,7 +4,7 @@ import "./style.css";
 
 export const ProjectComponent = ({project}: {project: Project}) => {
     return (
-        <NavLink to={`/Portfolio/project/${project.id}`}>
+        <NavLink to={`/Portfolio-2/project/${project.id}`}>
 			<li className="project">
 				<img src={project.img} alt={project.title} className="project__img" />
 				<div className="project__content">

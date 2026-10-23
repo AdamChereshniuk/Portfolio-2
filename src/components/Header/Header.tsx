@@ -11,7 +11,7 @@ export const Header = () => {
 				<div className="header__text">
 					<p>Создаю не просто красивые лендинги, а сайты, которые приносят результат.</p>
 				</div>
-				<NavLink className="btn" to="/Portfolio/projects">Посмотреть проекты</NavLink>
+				<NavLink className="btn" to="/Portfolio-2/projects">Посмотреть проекты</NavLink>
 			</div>
 		</header>
     );

@@ -10,7 +10,7 @@ export const Navbar = () => {
 		<nav className="nav">
 			<div className="container">
 				<div className="nav-row">
-					<NavLink to="/Portfolio/" className="logo">
+					<NavLink to="/Portfolio-2/" className="logo">
 						<strong>Freelancer</strong> portfolio
 					</NavLink>
 
@@ -18,14 +18,14 @@ export const Navbar = () => {
 
 					<ul className="nav-list">
 						<li className="nav-list__item">
-							<NavLink className={() => window.location.pathname == "/Portfolio/" ? activeLink : normalLink} to="/Portfolio/">Главная</NavLink>
+							<NavLink className={() => window.location.pathname == "/Portfolio-2/" ? activeLink : normalLink} to="/Portfolio-2/">Главная</NavLink>
 						</li>
 
 						<li className="nav-list__item">
-							<NavLink className={() => window.location.pathname.includes("projects") ? activeLink : normalLink} to="/Portfolio/projects">Проекты</NavLink>
+							<NavLink className={() => window.location.pathname.includes("projects") ? activeLink : normalLink} to="/Portfolio-2/projects">Проекты</NavLink>
 						</li>
 						<li className="nav-list__item">
-							<NavLink className={() => window.location.pathname.includes("contacts") ? activeLink : normalLink} to="/Portfolio/contacts">Контакты</NavLink>
+							<NavLink className={() => window.location.pathname.includes("contacts") ? activeLink : normalLink} to="/Portfolio-2/contacts">Контакты</NavLink>
 						</li>
 					</ul>
 				</div>

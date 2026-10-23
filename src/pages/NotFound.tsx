@@ -9,7 +9,7 @@ export const NotFound = () => {
 
                     <span>Проверьте, нет ли в имени опечатки или вернитесь на главную страницу</span>
 
-                    <Link className="link" to="/Portfolio/">На главную</Link>
+                    <Link className="link" to="/Portfolio-2/">На главную</Link>
                 </div>
             </div>
         </main>
