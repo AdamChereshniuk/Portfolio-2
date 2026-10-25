@@ -1,5 +1,8 @@
 .project {
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	background-color: var(--project-card-bg);
 	box-shadow: var(--box-shadow);
 	border-radius: 10px;
@@ -7,6 +10,8 @@
 }
 
 .project__img {
+	width: 100%;
+	height: 100%;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
@@ -22,7 +27,6 @@
 	position: absolute;
 	top: 12px;
 	left: 12px;
-	margin-top: auto;
 }
 
 .project__inscription {
@@ -54,5 +58,12 @@
 @media (max-width: 960px) {
 	.project__title {
 		font-size: 20px;
+	}
+}
+
+@media(max-width: 768px) {
+	.project__inscriptions {
+		flex-direction: column;
+		align-items: flex-start;
 	}
 }
