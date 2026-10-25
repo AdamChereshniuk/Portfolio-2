@@ -8,6 +8,7 @@ import { ProjectPage } from './pages/ProjectPage';
 import { Contacts } from "./pages/Contacts";
 import "./styles/main.css";
 import './styles/reset.css';
+import { Documents } from "./pages/Documents";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/Portfolio-2/projects" element={<Projects />} />
           <Route path="/Portfolio-2/project/:id" element={<ProjectPage />} />
           <Route path="/Portfolio-2/contacts" element={<Contacts />} />
+          <Route path="/Portfolio-2/documents" element={<Documents />} />
           <Route path="/Portfolio-2/*" element={<NotFound />} />
         </Routes>
         <Footer />

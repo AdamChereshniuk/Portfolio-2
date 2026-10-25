@@ -20,12 +20,14 @@ export const Navbar = () => {
 						<li className="nav-list__item">
 							<NavLink className={() => window.location.pathname == "/Portfolio-2/" ? activeLink : normalLink} to="/Portfolio-2/">Главная</NavLink>
 						</li>
-
 						<li className="nav-list__item">
 							<NavLink className={() => window.location.pathname.includes("projects") ? activeLink : normalLink} to="/Portfolio-2/projects">Проекты</NavLink>
 						</li>
 						<li className="nav-list__item">
 							<NavLink className={() => window.location.pathname.includes("contacts") ? activeLink : normalLink} to="/Portfolio-2/contacts">Контакты</NavLink>
+						</li>
+						<li className="nav-list__item">
+							<NavLink className={() => window.location.pathname.includes("documents") ? activeLink : normalLink} to="/Portfolio-2/documents">Сертификаты</NavLink>
 						</li>
 					</ul>
 				</div>

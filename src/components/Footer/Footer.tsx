@@ -1,6 +1,5 @@
-import twitter from "./../../img/icons/twitter.svg";
+import tg from "./../../img/icons/tg.svg";
 import gitHub from "./../../img/icons/gitHub.svg";
-import vk from "./../../img/icons/vk.svg";
 import "./style.css";
 
 export const Footer = () => {
@@ -10,13 +9,8 @@ export const Footer = () => {
 				<div className="footer__wrapper">
 					<ul className="social">
 						<li className="social__item">
-							<a href="https://vk.com/id792001441" target="_blank" rel="noreferrer">
-								<img src={vk} alt="Link" />
-							</a>
-						</li>
-						<li className="social__item">
-							<a href="https://x.com/cheradam2011" target="_blank" rel="noreferrer">
-								<img src={twitter} alt="Link" />
+							<a href="https://t.me/cheradam" target="_blank" rel="noreferrer">
+								<img src={tg} alt="Link" />
 							</a>
 						</li>
 						<li className="social__item">
@@ -26,7 +20,7 @@ export const Footer = () => {
 						</li>
 					</ul>
 					<div className="copyright">
-						<p>© 2025 frontend-dev.com</p>
+						<p>© 2026 adamchereshniuk.github.io</p>
 					</div>
 				</div>
 			</div>

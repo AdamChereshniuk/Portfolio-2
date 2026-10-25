@@ -1,6 +1,5 @@
 .project {
 	position: relative;
-	max-width: 370px;
 	background-color: var(--project-card-bg);
 	box-shadow: var(--box-shadow);
 	border-radius: 10px;
@@ -10,8 +9,6 @@
 .project__img {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	width: 370px;
-	height: 195px;
 }
 
 .project__content {
@@ -52,4 +49,10 @@
 	font-size: 24px;
 	line-height: 1.3;
 	color: var(--project-card-text);
+}
+
+@media (max-width: 960px) {
+	.project__title {
+		font-size: 20px;
+	}
 }
