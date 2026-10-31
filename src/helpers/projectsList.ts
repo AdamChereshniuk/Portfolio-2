@@ -76,6 +76,12 @@ import rumTibetBig from "./../img/projects/rumTibet.png";
 import todo_list from "./../img/projects/todo_list.png";
 import todo_listBig from "./../img/projects/todo_list.png";
 
+import panto from "./../img/projects/panto.png";
+import pantoBig from "./../img/projects/panto.png";
+
+import cheffest from "./../img/projects/cheffest.png";
+import cheffestBig from "./../img/projects/cheffest.png";
+
 import in_work from "./../img/projects/in_work.png";
 import in_workBig from "./../img/projects/in_work.png";
 
@@ -246,6 +252,37 @@ export const projects: Project[] = [
 		imgBig: rumTibetBig,
 		gitHubLink: "https://github.com/AdamChereshniuk/RumTibet",
 		liveSiteLink: "https://adamchereshniuk.github.io/RumTibet/",
+	},
+	{
+		id: "htmlCssJs-16",
+		title: "Panto",
+		description: "Одностраничный сайт магазина мебели.",
+		skills: "HTML, CSS, Figma",
+		tab: "HTML & CSS & JS",
+		img: panto,
+		imgBig: pantoBig,
+		gitHubLink: "https://github.com/AdamChereshniuk/Panto",
+		liveSiteLink: "https://adamchereshniuk.github.io/Panto/",
+	},
+	{
+		id: "htmlCssJs-17",
+		title: "Cheffest",
+		description: "Одностраничный сайт фастфуд-ресторана.",
+		skills: "HTML, CSS, Figma",
+		tab: "HTML & CSS & JS",
+		img: cheffest,
+		imgBig: cheffestBig,
+		gitHubLink: "https://github.com/AdamChereshniuk/Cheffest",
+		liveSiteLink: "https://adamchereshniuk.github.io/Cheffest/",
+	},
+	{
+		id: "htmlCssJs-18",
+		title: "Wedding Website",
+		description: "Одностраничный сайт компании по организации свадеб.",
+		skills: "HTML, CSS, Figma",
+		tab: "HTML & CSS & JS",
+		img: in_work,
+		imgBig: in_workBig,
 	},
 
 	// React
