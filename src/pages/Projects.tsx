@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { projects } from "../helpers/projectsList";
 import { ProjectComponent } from "../components/Project/Project";
+import info from "../img/projects/info.svg";
 
 export const Projects = () => {
     const [currentTab, setCurrentTab] = useState("htmlCssJs"); // htmlCssJs | react | vue | wordpress
@@ -13,6 +14,16 @@ export const Projects = () => {
 		<main className="section">
 			<div className="container">
 				<h2 className="title-1">Проекты</h2>
+				<div className="hints">
+					<span className="hint">
+						<img src={info} alt="Инфо" />
+						Лучше смотреть с компьютера, так как не все проекты адаптированы под мобильные устройства
+					</span>
+					<span className="hint">
+						<img src={info} alt="Инфо" />
+						В проектах из раздела "ReactJS" возможна задержка в получении данных, так как данные хранятся на сторонних серверах. К сожалению, я не могу с этим ничего поделать. Надеюсь на понимание!
+					</span>
+				</div>
 				<ul className="tabs">
 					<li className={`tab ${currentTab === "htmlCssJs" && "active"}`} onClick={() => setCurrentTab("htmlCssJs")}>Верстка</li>
 					<li className={`tab ${currentTab === "react" && "active"}`} onClick={() => setCurrentTab("react")}>ReactJS</li>

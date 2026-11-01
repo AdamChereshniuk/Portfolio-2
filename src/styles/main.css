@@ -191,6 +191,24 @@ html, body {
 	gap: 24px;
 }
 
+.hints {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	margin: 40px 0;
+}
+
+.hint {
+	display: flex;
+	gap: 16px;
+	color: #5c62ec;
+}
+
+.hint > img {
+	width: 24px;
+	height: 24px;
+}
+
 /* Tabs */
 .tabs {
 	display: flex;
@@ -325,6 +343,11 @@ html, body {
 	.project-details__desc {
 		margin-bottom: 20px;
 		font-size: 22px;
+	}
+
+	.hint {
+		flex-direction: column;
+		gap: 8px;
 	}
 
 	/* Content List */
