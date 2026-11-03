@@ -101,7 +101,7 @@ export const projects: Project[] = [
 	{
 		id: "htmlCssJs-2",
 		title: "Realtime Weather App",
-		description: "Одностраничное приложение для просмтора погоды по городам с реальными данными.",
+		description: "Одностраничное приложение для просмотра погоды по городам с реальными данными.",
 		skills: "JavaScript, API",
 		tab: "HTML & CSS & JS",
 		img: realtime_weather_app,
@@ -156,7 +156,7 @@ export const projects: Project[] = [
 	{
 		id: "htmlCssJs-7",
 		title: "FromBoard Delivery",
-		description: "Одностраничный сайт картинной галереи.",
+		description: "Одностраничный сайт компании по доставке вещей из-за границы.",
 		skills: "HTML, CSS, Figma",
 		tab: "HTML & CSS & JS",
 		img: fromboard_delivery,
@@ -178,7 +178,7 @@ export const projects: Project[] = [
 	{
 		id: "htmlCssJs-9",
 		title: "InkHouse",
-		description: "Одностраничный сайт по продаже картин.",
+		description: "Одностраничный сайт по продаже картин с имитацией оплаты.",
 		skills: "HTML, CSS, Figma",
 		tab: "HTML & CSS & JS",
 		img: ink_house,
@@ -256,7 +256,7 @@ export const projects: Project[] = [
 	{
 		id: "htmlCssJs-16",
 		title: "Panto",
-		description: "Одностраничный сайт магазина мебели.",
+		description: "Одностраничный десктопный сайт магазина мебели.",
 		skills: "HTML, CSS, Figma",
 		tab: "HTML & CSS & JS",
 		img: panto,
@@ -401,7 +401,7 @@ export const projects: Project[] = [
 	{
 		id: "wordpress-2",
 		title: "Cakes",
-		description: "Одностраничный сайт магазина пирожных.",
+		description: "Одностраничный сайт по продаже кондитерских изделий.",
 		skills: "WordPress, Elementor",
 		tab: "WordPress",
 		img: cakes,

@@ -17,7 +17,7 @@ export const Projects = () => {
 				<div className="hints">
 					<span className="hint">
 						<img src={info} alt="Инфо" />
-						Лучше смотреть с компьютера, так как не все проекты адаптированы под мобильные устройства
+						Лучше смотреть с компьютера, так как не все проекты адаптированы под мобильные устройства.
 					</span>
 					<span className="hint">
 						<img src={info} alt="Инфо" />
