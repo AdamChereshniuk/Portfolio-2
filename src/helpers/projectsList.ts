@@ -82,6 +82,30 @@ import pantoBig from "./../img/projects/panto.png";
 import cheffest from "./../img/projects/cheffest.png";
 import cheffestBig from "./../img/projects/cheffest.png";
 
+import morrow from "./../img/projects/morrow.png";
+import morrowBig from "./../img/projects/morrow.png";
+
+import lapkivet from "./../img/projects/lapkivet.png";
+import lapkivetBig from "./../img/projects/lapkivet.png";
+
+import autolaw from "./../img/projects/autolaw.png";
+import autolawBig from "./../img/projects/autolaw.png";
+
+import darexHouse from "./../img/projects/darexHouse.png";
+import darexHouseBig from "./../img/projects/darexHouse.png";
+
+import blesk161 from "./../img/projects/blesk161.png";
+import blesk161Big from "./../img/projects/blesk161.png";
+
+import megamart from "./../img/projects/megamart.png";
+import megamartBig from "./../img/projects/megamart.png";
+
+import coca from "./../img/projects/coca.png";
+import cocaBig from "./../img/projects/coca.png";
+
+import zaimberu from "./../img/projects/zaimberu.png";
+import zaimberuBig from "./../img/projects/zaimberu.png";
+
 import in_work from "./../img/projects/in_work.png";
 import in_workBig from "./../img/projects/in_work.png";
 
@@ -277,8 +301,8 @@ export const projects: Project[] = [
 	},
 	{
 		id: "htmlCssJs-18",
-		title: "Wedding Website",
-		description: "Одностраничный сайт компании по организации свадеб.",
+		title: "Gravity",
+		description: "Одностраничный сайт компании Gravity.",
 		skills: "HTML, CSS, Figma",
 		tab: "HTML & CSS & JS",
 		img: in_work,
@@ -397,6 +421,7 @@ export const projects: Project[] = [
 		img: amberkava,
 		imgBig: amberkavaBig,
 		liveSiteLink: "https://amberkava.22web.org/wp/",
+		multipages: true,
 	},
 	{
 		id: "wordpress-2",
@@ -426,6 +451,7 @@ export const projects: Project[] = [
 		img: super_print,
 		imgBig: super_printBig,
 		liveSiteLink: "https://adamchereshniuk.byethost4.com/?i=1",
+		multipages: true,
 	},
 	{
 		id: "wordpress-5",
@@ -436,6 +462,103 @@ export const projects: Project[] = [
 		img: foodi,
 		imgBig: foodiBig,
 		liveSiteLink: "http://adamcher.atwebpages.com/#",
+	},
+	{
+		id: "wordpress-6",
+		title: "Строй-Лес-Комфорт",
+		description: "Реальный заказ. Сайт под ключ для компании Строй-Лес-Комфорт.",
+		skills: "Figma, Tilda",
+		tab: "WordPress",
+		img: in_work,
+		imgBig: in_workBig,
+		fromFreelance: true,
+	},
+	{
+		id: "wordpress-7",
+		title: "LapkiVet",
+		description: "Десктопный сайт вет-клиники.",
+		skills: "Tilda",
+		tab: "WordPress",
+		img: lapkivet,
+		imgBig: lapkivetBig,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/lapkivet",
+		multipages: true,
+	},
+	{
+		id: "wordpress-8",
+		title: "Автоюрист",
+		description: "Сайт юридической компании.",
+		skills: "Tilda",
+		tab: "WordPress",
+		img: autolaw,
+		imgBig: autolawBig,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/autolaw",
+	},
+	{
+		id: "wordpress-9",
+		title: "Darex House",
+		description: "Сайт строительной компании.",
+		skills: "Tilda",
+		tab: "WordPress",
+		img: darexHouse,
+		imgBig: darexHouseBig,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/darex-house",
+	},
+	{
+		id: "wordpress-10",
+		title: "Блеск161",
+		description: "Сайт клининговой компании.",
+		skills: "Tilda",
+		tab: "WordPress",
+		img: blesk161,
+		imgBig: blesk161Big,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/blesk161",
+	},
+	{
+		id: "wordpress-11",
+		title: "MegaMart",
+		description: "Десктопный сайт супер-маркета.",
+		skills: "Tilda",
+		tab: "WordPress",
+		img: megamart,
+		imgBig: megamartBig,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/megamart",
+	},
+	{
+		id: "wordpress-12",
+		title: "Coca",
+		description: "Многостраничный сайт компании Coca.",
+		skills: "Tilda",
+		tab: "WordPress",
+		img: coca,
+		imgBig: cocaBig,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/coca",
+		multipages: true,
+	},
+
+	// Vibecoding
+	{
+		id: "vibecoding-12",
+		title: "ЗаймБеру",
+		description: "Многостраничный сайт компании ЗаймБеру.",
+		skills: "Wuna AI",
+		tab: "Vibecoding",
+		img: zaimberu,
+		imgBig: zaimberuBig,
+		liveSiteLink: "https://zaimberu.wuna.ai/",
+		multipages: true,
+	},
+
+	// Web-design
+	{
+		id: "webdesign-1",
+		title: "Morrow",
+		description: "Макет сайта кофейни.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: morrow,
+		imgBig: morrowBig,
+		liveSiteLink: "https://www.figma.com/make/Zx3wlVkOdV7gCGmxZGPtsK/Coffee-Shop-Website-Template?p=f&t=Ft3KgKC8mbiZAvsZ-0&fullscreen=1",
 	},
 ];
 
@@ -452,4 +575,5 @@ export interface Project {
 	fromFreelance?: boolean,
 	teamProject?: boolean,
 	bigProject?: boolean,
+	multipages?: boolean,
 };

@@ -214,18 +214,25 @@ html, body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 16x;
+	gap: 24px;
 	margin-bottom: 48px;
+	width: 100%;
+	max-width: calc(100vw - 30px);
+	overflow-x: scroll;
 }
 
-.tab {
-	display: flex;
-	justify-content: center;
+.tabs::-webkit-scrollbar {
+	display: none;
+}
+
+.tab > span {
+	display: block;
+	width: max-content;
 	padding: 12px 30px;
 	cursor: pointer;
 }
 
-.tab.active {
+.tab.active > span {
 	background-color: #5c62ec;
 	border-radius: 30px;
 	color: #fff;
