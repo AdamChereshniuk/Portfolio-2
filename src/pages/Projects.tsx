@@ -10,7 +10,6 @@ export const Projects = () => {
 	const wordpressProjects = projects.filter(project => project.tab === "WordPress");
 	const vibecodingProjects = projects.filter(project => project.tab === "Vibecoding");
 	const webDesignProjects = projects.filter(project => project.tab === "Web-design");
-	console.log(projects.length);
 	document.title = "Проекты";
 
 	return (

@@ -334,6 +334,8 @@ export const projects: Project[] = [
 		tab: "HTML & CSS & JS",
 		img: gravity,
 		imgBig: gravityBig,
+		gitHubLink: "https://github.com/AdamChereshniuk/Gravity",
+		liveSiteLink: "https://adamchereshniuk.github.io/Gravity/",
 	},
 
 	// React
