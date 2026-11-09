@@ -295,6 +295,59 @@ html, body {
 	gap: 24px;
 }
 
+/* Reviews */
+.reviews__list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 24px;
+}
+
+.reviews__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 24px;
+	padding: 24px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 50px 0px rgba(34, 60, 80, 0.3);
+}
+
+.reviews__item-customer {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.reviews__item-customer > img {
+	width: 48px;
+	height: 48px;
+	border-radius: 100%;
+}
+
+.reviews__item-customer > span {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.reviews__item-content {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.reviews__item-link {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-weight: 500;
+	color: var(--accent);
+}
+
+.reviews__item-link > img {
+	width: 24px;
+	height: 24px;
+}
+
 @media (max-width: 1200px) {
 	.projects {
 		grid-template-columns: repeat(2, 1fr);

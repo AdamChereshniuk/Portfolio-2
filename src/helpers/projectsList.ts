@@ -106,6 +106,33 @@ import cocaBig from "./../img/projects/coca.png";
 import zaimberu from "./../img/projects/zaimberu.png";
 import zaimberuBig from "./../img/projects/zaimberu.png";
 
+import hotel from "./../img/projects/hotel.png";
+import hotelBig from "./../img/projects/hotel.png";
+
+import mdr from "./../img/projects/mdr.png";
+import mdrBig from "./../img/projects/mdr.png";
+
+import whoosh from "./../img/projects/whoosh.png";
+import whooshBig from "./../img/projects/whoosh.png";
+
+import perfumeMode from "./../img/projects/perfumeMode.png";
+import perfumeModeBig from "./../img/projects/perfumeMode.png";
+
+import nftgo from "./../img/projects/nftgo.png";
+import nftgoBig from "./../img/projects/nftgo.png";
+
+import designPortfolio from "./../img/projects/designPortfolio.png";
+import designPortfolioBig from "./../img/projects/designPortfolio.png";
+
+import fableAndFolio from "./../img/projects/fableAndFolio.png";
+import fableAndFolioBig from "./../img/projects/fableAndFolio.png";
+
+import samsung from "./../img/projects/samsung.png";
+import samsungBig from "./../img/projects/samsung.png";
+
+import gravity from "./../img/projects/gravity.png";
+import gravityBig from "./../img/projects/gravity.png";
+
 import in_work from "./../img/projects/in_work.png";
 import in_workBig from "./../img/projects/in_work.png";
 
@@ -302,11 +329,11 @@ export const projects: Project[] = [
 	{
 		id: "htmlCssJs-18",
 		title: "Gravity",
-		description: "Одностраничный сайт компании Gravity.",
+		description: "Одностраничный десктопный сайт компании Gravity.",
 		skills: "HTML, CSS, Figma",
 		tab: "HTML & CSS & JS",
-		img: in_work,
-		imgBig: in_workBig,
+		img: gravity,
+		imgBig: gravityBig,
 	},
 
 	// React
@@ -559,6 +586,87 @@ export const projects: Project[] = [
 		img: morrow,
 		imgBig: morrowBig,
 		liveSiteLink: "https://www.figma.com/make/Zx3wlVkOdV7gCGmxZGPtsK/Coffee-Shop-Website-Template?p=f&t=Ft3KgKC8mbiZAvsZ-0&fullscreen=1",
+	},
+	{
+		id: "webdesign-2",
+		title: "Отель",
+		description: "Макет сайта отеля.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: hotel,
+		imgBig: hotelBig,
+		liveSiteLink: "https://www.figma.com/proto/9ADBh3hkY5b6vS9ZVhHTP0/Макет--Copy-?node-id=2014-2&p=f&t=lBZf9MGcrPN7MnaH-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+	},
+	{
+		id: "webdesign-3",
+		title: "MDR",
+		description: "Макет первого экрана сайта производителя дронов.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: mdr,
+		imgBig: mdrBig,
+		liveSiteLink: "https://www.figma.com/proto/y2kUZQQOY6aaqXKD0nbwtO/MDR?node-id=2-3&p=f&t=mbUSGS4P7xitSICm-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+	},
+	{
+		id: "webdesign-4",
+		title: "Whoosh",
+		description: "Макет первого экрана сайта по продаже фенов Whoosh.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: whoosh,
+		imgBig: whooshBig,
+		liveSiteLink: "https://www.figma.com/proto/CUueYlfm4YhGMXwKXfhFRn/Whoosh?node-id=1-3&p=f&t=VA5iSYKo6N6SoLdl-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+	},
+	{
+		id: "webdesign-5",
+		title: "Perfume Mode",
+		description: "Макет первого экрана сайта по продаже духов.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: perfumeMode,
+		imgBig: perfumeModeBig,
+		liveSiteLink: "https://www.figma.com/proto/R4b17B55knXIdUl4Mb0XFT/PERFUME-MODE?node-id=0-1&p=f&t=Q5AZALjNPlhGCvRy-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+	},
+	{
+		id: "webdesign-6",
+		title: "NFT Go",
+		description: "Макет первого экрана сайта NFT-маркета.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: nftgo,
+		imgBig: nftgoBig,
+		liveSiteLink: "https://www.figma.com/proto/rJF3Twpwa6EGvEvikm8qub/NFTGO?node-id=1-2&t=ecNiy5INaqAbl0tU-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+	},
+	{
+		id: "webdesign-7",
+		title: "Designer Portfolio",
+		description: "Макет моего портфолио веб-дизайнера.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: designPortfolio,
+		imgBig: designPortfolioBig,
+		liveSiteLink: "https://www.figma.com/proto/iCCvu3PyjEktP4yuGunBh6/Designer-Portfolio?node-id=1-2&p=f&t=nLoEGBacwKuVm9gp-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+	},
+
+	{
+		id: "webdesign-8",
+		title: "Samsung",
+		description: "Макет первого блока сайта по продаже телефонов.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: samsung,
+		imgBig: samsungBig,
+		liveSiteLink: "https://www.figma.com/proto/J6qmLmg1u1dMtHN9I69Ysf/Samsung?node-id=1-2&t=mGKjiAPO6EVnxuq1-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+	},
+	{
+		id: "webdesign-9",
+		title: "Fable & Folio",
+		description: "Макет сайта по продаже английских книг.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: fableAndFolio,
+		imgBig: fableAndFolioBig,
+		liveSiteLink: "https://www.figma.com/make/LPoSidEUx0BLsVbgNmBgpg/English-Bookshop-Website-Template?code-node-id=0-6&p=f&t=9B5GoMLk23swjpm8-0&fullscreen=1",
 	},
 ];
 

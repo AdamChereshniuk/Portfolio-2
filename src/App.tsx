@@ -9,6 +9,7 @@ import { Contacts } from "./pages/Contacts";
 import "./styles/main.css";
 import './styles/reset.css';
 import { Documents } from "./pages/Documents";
+import { Reviews } from "./pages/Reviews";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/Portfolio-2/" element={<Home />} />
           <Route path="/Portfolio-2/projects" element={<Projects />} />
           <Route path="/Portfolio-2/project/:id" element={<ProjectPage />} />
+          <Route path="/Portfolio-2/reviews" element={<Reviews />} />
           <Route path="/Portfolio-2/contacts" element={<Contacts />} />
           <Route path="/Portfolio-2/documents" element={<Documents />} />
           <Route path="/Portfolio-2/*" element={<NotFound />} />
@@ -26,7 +28,7 @@ function App() {
         <Footer />
       </Router>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
