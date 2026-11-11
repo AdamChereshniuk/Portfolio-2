@@ -52,8 +52,8 @@ import email_to_businessBig from "./../img/projects/email_to_business.png";
 import turkomanda from "./../img/projects/turkomanda.png";
 import turkomandaBig from "./../img/projects/turkomanda.png";
 
-import recipes_app from "./../img/projects/recipes_app.png";
-import recipes_appBig from "./../img/projects/recipes_app.png";
+// import recipes_app from "./../img/projects/recipes_app.png";
+// import recipes_appBig from "./../img/projects/recipes_app.png";
 
 import all_for_investor from "./../img/projects/all_for_investor.png";
 import all_for_investorBig from "./../img/projects/all_for_investor.png";
@@ -390,10 +390,10 @@ export const projects: Project[] = [
 		description: "Одностраничный десктопный сайт-блог рецептов.",
 		skills: "ReactJS, SASS, TypeScript, Vite, Pinia, Supabase",
 		tab: "ReactJS",
-		img: recipes_app,
-		imgBig: recipes_appBig,
-		gitHubLink: "https://github.com/AdamChereshniuk/Recipes-App",
-		liveSiteLink: "https://adamchereshniuk.github.io/Recipes-App/Recipes-App/",
+		img: in_work,
+		imgBig: in_workBig,
+		// gitHubLink: "https://github.com/AdamChereshniuk/Recipes-App",
+		// liveSiteLink: "https://adamchereshniuk.github.io/Recipes-App/Recipes-App/",
 	},
 	{
 		id: "react-6",
