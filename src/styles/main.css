@@ -342,6 +342,12 @@ html, body {
 	gap: 24px;
 }
 
+.reviews__item-links {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
 .reviews__item-link {
 	display: flex;
 	align-items: center;
@@ -368,6 +374,13 @@ html, body {
 	height: 100%;
 	max-height: 120px;
 	border-radius: 100%;
+}
+
+.reviews__item-source {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-weight: 500;
 }
 
 @media (max-width: 1200px) {

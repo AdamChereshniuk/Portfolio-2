@@ -1,12 +1,14 @@
 import { reviews } from "../helpers/reviewsList";
 import link from "../img/reviews/link.svg";
+import source from "../img/reviews/source.svg";
 import flru_logo from "../img/flru_logo.webp";
 import freelanceru_logo from "../img/freelanceru_logo.webp";
-import kwork_logo from "../img/kwork_logo.webp";
 import weblancer_logo from "../img/weblancer_logo.webp";
 import youdo_logo from "../img/youdo_logo.webp";
 
 export const Reviews = () => {
+	document.title = "Отзывы";
+
     return (
         <main className="section">
 			<div className="container">
@@ -23,10 +25,14 @@ export const Reviews = () => {
                             </div>
                             {review.links !== undefined && review.links !== null && (
                                 <div className="reviews__item-links">
+                                    <p className="reviews__item-source">
+                                        <img src={source} alt="Источник" />
+                                        Источник: {review.links?.orderSource}
+                                    </p>
                                     {review.links.orderLink !== undefined && review.links.orderSource && (
                                         <a className="reviews__item-link" href={review.links.orderLink} target="_blank">
                                             <img src={link} alt="Ссылка" />
-                                            Заказ на {review.links.orderSource}
+                                            Посмотреть заказ
                                         </a>
                                     )}
                                 </div>
@@ -47,12 +53,7 @@ export const Reviews = () => {
                         </a>
                     </li>
                     <li className="reviews__logo">
-                        <a className="reviews__logo-link" href="https://kwork.ru/user/adamchereshniuk" target="_blank">
-                            <img src={kwork_logo} alt="Kwork" />
-                        </a>
-                    </li>
-                    <li className="reviews__logo">
-                        <a className="reviews__logo-link" href="https://kwork.ru/user/adamchereshniuk" target="_blank">
+                        <a className="reviews__logo-link" href="https://www.weblancer.net/users/Adam2004/" target="_blank">
                             <img src={weblancer_logo} alt="Weblancer" />
                         </a>
                     </li>

@@ -11,12 +11,14 @@
 	box-sizing: border-box;
 }
 
+*:hover, *:focus, *:active {
+    outline: none;
+}
+
 /* Links */
 
 a, a:link, a:visited  {
-    /* color: inherit; */
     text-decoration: none;
-    /* display: inline-block; */
 }
 
 a:hover  {
