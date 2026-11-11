@@ -383,6 +383,13 @@ html, body {
 	font-weight: 500;
 }
 
+.reviews__count {
+	margin: -20px 0 40px;
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+}
+
 @media (max-width: 1200px) {
 	.projects {
 		grid-template-columns: repeat(2, 1fr);

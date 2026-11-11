@@ -1,10 +1,10 @@
 import { reviews } from "../helpers/reviewsList";
 import link from "../img/reviews/link.svg";
 import source from "../img/reviews/source.svg";
-import flru_logo from "../img/flru_logo.webp";
-import freelanceru_logo from "../img/freelanceru_logo.webp";
-import weblancer_logo from "../img/weblancer_logo.webp";
-import youdo_logo from "../img/youdo_logo.webp";
+// import flru_logo from "../img/flru_logo.webp";
+// import freelanceru_logo from "../img/freelanceru_logo.webp";
+// import weblancer_logo from "../img/weblancer_logo.webp";
+// import youdo_logo from "../img/youdo_logo.webp";
 
 export const Reviews = () => {
 	document.title = "Отзывы";
@@ -13,6 +13,7 @@ export const Reviews = () => {
         <main className="section">
 			<div className="container">
 				<h2 className="title-1">Отзывы</h2>
+                <p className="reviews__count">Всего отзывов: {reviews.length}</p>
                 <ul className="reviews__list">
                     {reviews.map(review => (
                         <li className="reviews__item">
@@ -40,7 +41,7 @@ export const Reviews = () => {
                         </li>
                     ))}
                 </ul>
-                <h3 className="reviews__subtitle">Отзывы на фриланс-биржах</h3>
+                {/* <h3 className="reviews__subtitle">Отзывы на фриланс-биржах</h3>
                 <ul className="reviews__logos">
                     <li className="reviews__logo">
                         <a className="reviews__logo-link" href="https://www.fl.ru/users/cheradam2011/portfolio/" target="_blank">
@@ -62,7 +63,7 @@ export const Reviews = () => {
                             <img src={youdo_logo} alt="YouDo" />
                         </a>
                     </li>
-                </ul>
+                </ul> */}
 			</div>
 		</main>
     );
