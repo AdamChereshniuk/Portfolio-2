@@ -133,6 +133,21 @@ import samsungBig from "./../img/projects/samsung.png";
 import gravity from "./../img/projects/gravity.png";
 import gravityBig from "./../img/projects/gravity.png";
 
+import englishMan from "./../img/projects/englishMan.png";
+import englishManBig from "./../img/projects/englishMan.png";
+
+import nordicaResidence from "./../img/projects/nordicaResidence.png";
+import nordicaResidenceBig from "./../img/projects/nordicaResidence.png";
+
+import magazinSushiPizza from "./../img/projects/magazinSushiPizza.png";
+import magazinSushiPizzaBig from "./../img/projects/magazinSushiPizza.png";
+
+import dances from "./../img/projects/dances.png";
+import dancesBig from "./../img/projects/dances.png";
+
+import fashion from "./../img/projects/fashion.png";
+import fashionBig from "./../img/projects/fashion.png";
+
 import in_work from "./../img/projects/in_work.png";
 import in_workBig from "./../img/projects/in_work.png";
 
@@ -494,13 +509,13 @@ export const projects: Project[] = [
 	},
 	{
 		id: "wordpress-6",
-		title: "Строй-Лес-Комфорт",
-		description: "Реальный заказ. Сайт под ключ для компании Строй-Лес-Комфорт.",
+		title: "Fashion",
+		description: "Сайт по продаже одежды.",
 		skills: "Figma, Tilda",
 		tab: "WordPress",
-		img: in_work,
-		imgBig: in_workBig,
-		fromFreelance: true,
+		img: fashion,
+		imgBig: fashionBig,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/fashion",
 	},
 	{
 		id: "wordpress-7",
@@ -567,7 +582,7 @@ export const projects: Project[] = [
 
 	// Vibecoding
 	{
-		id: "vibecoding-12",
+		id: "vibecoding-1",
 		title: "ЗаймБеру",
 		description: "Многостраничный сайт компании ЗаймБеру.",
 		skills: "Wuna AI",
@@ -576,6 +591,16 @@ export const projects: Project[] = [
 		imgBig: zaimberuBig,
 		liveSiteLink: "https://zaimberu.wuna.ai/",
 		multipages: true,
+	},
+	{
+		id: "vibecoding-2",
+		title: "EnglishMan",
+		description: "Одностраничный сайт языковой школы EnglishMan.",
+		skills: "Poehali AI",
+		tab: "Vibecoding",
+		img: englishMan,
+		imgBig: englishManBig,
+		liveSiteLink: "https://language-school-site.poehali.ws/",
 	},
 
 	// Web-design
@@ -649,7 +674,6 @@ export const projects: Project[] = [
 		imgBig: designPortfolioBig,
 		liveSiteLink: "https://www.figma.com/proto/iCCvu3PyjEktP4yuGunBh6/Designer-Portfolio?node-id=1-2&p=f&t=nLoEGBacwKuVm9gp-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
 	},
-
 	{
 		id: "webdesign-8",
 		title: "Samsung",
@@ -669,6 +693,36 @@ export const projects: Project[] = [
 		img: fableAndFolio,
 		imgBig: fableAndFolioBig,
 		liveSiteLink: "https://www.figma.com/make/LPoSidEUx0BLsVbgNmBgpg/English-Bookshop-Website-Template?code-node-id=0-6&p=f&t=9B5GoMLk23swjpm8-0&fullscreen=1",
+	},
+	{
+		id: "webdesign-10",
+		title: "Nordica Residence",
+		description: "Макет сайта по покупке недвижимости.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: nordicaResidence,
+		imgBig: nordicaResidenceBig,
+		liveSiteLink: "https://www.figma.com/proto/ajACOCcZW5QJKtUTP1nvou/Nordica-Residence?node-id=1-15&p=f&t=ZwFEtwbSXuQM2uAk-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+	},
+	{
+		id: "webdesign-11",
+		title: "Магазин суши и пицца",
+		description: "Макет сайта пиццерии.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: magazinSushiPizza,
+		imgBig: magazinSushiPizzaBig,
+		liveSiteLink: "https://www.figma.com/make/MIE4L7OuGzhtoT7Mr2Ebtk/Главная-страница-пиццерии?code-node-id=0-6&p=f&t=9QKPgAIRA80YZfym-0&fullscreen=1",
+	},
+	{
+		id: "webdesign-12",
+		title: "Танцы",
+		description: "Макет сайта кружка по танцам.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: dances,
+		imgBig: dancesBig,
+		liveSiteLink: "https://www.figma.com/proto/f7WC735N3Blk3M1NxGBI2o/Танцы?node-id=3-2&p=f&t=n55ZFenZO9KExlJx-0&scaling=contain&content-scaling=fixed&page-id=0%3A1",
 	},
 ];
 
