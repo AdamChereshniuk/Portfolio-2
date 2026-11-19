@@ -129,8 +129,7 @@ html, body {
 	display: flex;
 	column-gap: 10px;
 	align-items: center;
-
-	height: 48px;
+	
 	padding: 12px 20px;
 
 	border-radius: 5px;
@@ -390,9 +389,90 @@ html, body {
 	text-align: center;
 }
 
+/* Services */
+.services__list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 32px;
+}
+
+.services__item-content {
+	justify-content: space-between;
+	height: 100%;
+}
+
+.services__item, .services__item-content, .services__item-top {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.services__item-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.services__item-title {
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.services__item-price {
+	color: #5c62ec;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.services__item-term {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.services__item-btns {
+	display: flex;
+	align-items: stretch;
+	gap: 24px;
+	width: fit-content;
+}
+
+.services__item-btns a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	width: max-content;
+	padding: 12px 24px;
+}
+
 @media (max-width: 1200px) {
 	.projects {
 		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.services__list {
+		gap: 20px;
+	}
+
+	.services__item-content {
+		gap: 12px;
+	}
+
+	.services__item-title {
+		font-size: 24px;
+	}
+
+	.services__item-text {
+		font-size: 14px;
+	}
+
+	.services__item-price, .services__item-term {
+		font-size: 16px;
+	}
+
+	.services__item-btns {
+		flex-direction: column;
+		gap: 12px;
 	}
 }
 
@@ -404,6 +484,15 @@ html, body {
 	.reviews__subtitle {
 		margin: 70px 0 40px;
 		font-size: 38px;
+	}
+
+	.services__list {
+		grid-template-columns: 1fr;
+		gap: 32px;
+	}
+
+	.services__item-btns {
+		flex-direction: row;
 	}
 }
 
@@ -522,6 +611,28 @@ html, body {
 
 	.reviews__list {
 		grid-template-columns: 1fr;
+	}
+
+	.services__item-btns {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+		width: 100%;
+	}
+
+	.services__item-btns a {
+		width: 100%;
+	}
+
+	.services__item-btns a:first-child > img {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.services__item-btns {
+		grid-template-columns: 1fr;
+		gap: 8px;
 	}
 }
 

@@ -18,7 +18,7 @@ export const Navbar = () => {
 
 					<ul className="nav-list">
 						<li className="nav-list__item">
-							<NavLink className={() => window.location.pathname == "/Portfolio-2/" ? activeLink : normalLink} to="/Portfolio-2/">Главная</NavLink>
+							<NavLink className={() => window.location.pathname.includes("services") ? activeLink : normalLink} to="/Portfolio-2/services">Услуги</NavLink>
 						</li>
 						<li className="nav-list__item">
 							<NavLink className={() => window.location.pathname.includes("projects") ? activeLink : normalLink} to="/Portfolio-2/projects">Проекты</NavLink>

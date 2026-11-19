@@ -10,6 +10,7 @@ import "./styles/main.css";
 import './styles/reset.css';
 import { Documents } from "./pages/Documents";
 import { Reviews } from "./pages/Reviews";
+import { Services } from "./pages/Services";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/Portfolio-2/" element={<Home />} />
+          <Route path="/Portfolio-2/services" element={<Services />} />
           <Route path="/Portfolio-2/projects" element={<Projects />} />
           <Route path="/Portfolio-2/project/:id" element={<ProjectPage />} />
           <Route path="/Portfolio-2/reviews" element={<Reviews />} />

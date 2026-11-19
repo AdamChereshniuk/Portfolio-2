@@ -148,6 +148,12 @@ import dancesBig from "./../img/projects/dances.png";
 import fashion from "./../img/projects/fashion.png";
 import fashionBig from "./../img/projects/fashion.png";
 
+import organicFood from "./../img/projects/organicFood.png";
+import organicFoodBig from "./../img/projects/organicFood.png";
+
+import sos from "./../img/projects/sos.png";
+import sosBig from "./../img/projects/sos.png";
+
 import in_work from "./../img/projects/in_work.png";
 import in_workBig from "./../img/projects/in_work.png";
 
@@ -481,10 +487,11 @@ export const projects: Project[] = [
 		id: "wordpress-3",
 		title: "Organic Food",
 		description: "Одностраничный сайт ресторана.",
-		skills: "WordPress, Elementor",
+		skills: "Figma, Tilda",
 		tab: "WordPress",
-		img: in_work,
-		imgBig: in_workBig,
+		img: organicFood,
+		imgBig: organicFoodBig,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/organic-food",
 	},
 	{
 		id: "wordpress-4",
@@ -578,6 +585,34 @@ export const projects: Project[] = [
 		imgBig: cocaBig,
 		liveSiteLink: "https://adamchereshniuk.tilda.ws/coca",
 		multipages: true,
+	},
+	{
+		id: "wordpress-13",
+		title: "SOS",
+		description: "Одностраничный сайт игровой студии.",
+		skills: "Tilda",
+		tab: "WordPress",
+		img: sos,
+		imgBig: sosBig,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/sos",
+	},
+	{
+		id: "wordpress-14",
+		title: "Coral",
+		description: "Одностраничный сайт интернет-магазина.",
+		skills: "Tilda",
+		tab: "WordPress",
+		img: in_work,
+		imgBig: in_workBig,
+	},
+	{
+		id: "wordpress-15",
+		title: "Rivo",
+		description: "Одностраничный сайт магазина одежды.",
+		skills: "WordPress, Elementor",
+		tab: "WordPress",
+		img: in_work,
+		imgBig: in_workBig,
 	},
 
 	// Vibecoding
