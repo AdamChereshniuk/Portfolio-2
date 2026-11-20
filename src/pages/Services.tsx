@@ -32,6 +32,21 @@ export const Services = () => {
                         </li>
                     ))}
                 </ul>
+                <h2 className="title-1" style={{ marginTop: "80px" }}>Почасовая оплата</h2>
+                <div className="services__hour">
+                    <h3 className="services__hour-title">
+                        <span>500₽</span>
+                        <span>/час</span>
+                    </h3>
+                    <h3 className="services__hour-title">
+                        <span>2 500₽</span>
+                        <span>/день</span>
+                    </h3>
+                    <h3 className="services__hour-title">
+                        <span>8 000₽</span>
+                        <span>/неделя</span>
+                    </h3>
+                </div>
             </div>
         </main>
     );
