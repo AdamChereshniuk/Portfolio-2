@@ -154,6 +154,9 @@ import organicFoodBig from "./../img/projects/organicFood.png";
 import sos from "./../img/projects/sos.png";
 import sosBig from "./../img/projects/sos.png";
 
+import coral from "./../img/projects/coral.png";
+import coralBig from "./../img/projects/coral.png";
+
 import in_work from "./../img/projects/in_work.png";
 import in_workBig from "./../img/projects/in_work.png";
 
@@ -370,7 +373,7 @@ export const projects: Project[] = [
 		imgBig: vk_marusyaBig,
 		gitHubLink: "https://github.com/adamchereshniuk/VK-Marusya",
 		liveSiteLink: "https://adamchereshniuk.github.io/VK-Marusya/",
-		bigProject: true,
+		fromFreelance: true,
 	},
 	{
 		id: "react-2",
@@ -403,7 +406,7 @@ export const projects: Project[] = [
 		img: in_work,
 		imgBig: in_workBig,
 		teamProject: true,
-		bigProject: true,
+		fromFreelance: true,
 	},
 	{
 		id: "react-5",
@@ -458,7 +461,7 @@ export const projects: Project[] = [
 		img: in_work,
 		imgBig: in_workBig,
 		teamProject: true,
-		bigProject: true,
+		fromFreelance: true,
 	},
 
 	// WordPress
@@ -491,7 +494,7 @@ export const projects: Project[] = [
 		tab: "WordPress",
 		img: organicFood,
 		imgBig: organicFoodBig,
-		liveSiteLink: "https://adamchereshniuk.tilda.ws/organic-food",
+		liveSiteLink: "https://chereshniuk.tilda.ws/organic-food",
 	},
 	{
 		id: "wordpress-4",
@@ -522,7 +525,7 @@ export const projects: Project[] = [
 		tab: "WordPress",
 		img: fashion,
 		imgBig: fashionBig,
-		liveSiteLink: "https://adamchereshniuk.tilda.ws/fashion",
+		liveSiteLink: "https://chereshniuk.tilda.ws/fashion",
 	},
 	{
 		id: "wordpress-7",
@@ -532,7 +535,7 @@ export const projects: Project[] = [
 		tab: "WordPress",
 		img: lapkivet,
 		imgBig: lapkivetBig,
-		liveSiteLink: "https://adamchereshniuk.tilda.ws/lapkivet",
+		liveSiteLink: "https://chereshniuk.tilda.ws/lapkivet",
 		multipages: true,
 	},
 	{
@@ -543,7 +546,7 @@ export const projects: Project[] = [
 		tab: "WordPress",
 		img: autolaw,
 		imgBig: autolawBig,
-		liveSiteLink: "https://adamchereshniuk.tilda.ws/autolaw",
+		liveSiteLink: "https://chereshniuk.tilda.ws/autolaw",
 	},
 	{
 		id: "wordpress-9",
@@ -553,7 +556,7 @@ export const projects: Project[] = [
 		tab: "WordPress",
 		img: darexHouse,
 		imgBig: darexHouseBig,
-		liveSiteLink: "https://adamchereshniuk.tilda.ws/darex-house",
+		liveSiteLink: "https://chereshniuk.tilda.ws/darex-house",
 	},
 	{
 		id: "wordpress-10",
@@ -563,7 +566,7 @@ export const projects: Project[] = [
 		tab: "WordPress",
 		img: blesk161,
 		imgBig: blesk161Big,
-		liveSiteLink: "https://adamchereshniuk.tilda.ws/blesk161",
+		liveSiteLink: "https://chereshniuk.tilda.ws/blesk161",
 	},
 	{
 		id: "wordpress-11",
@@ -573,7 +576,7 @@ export const projects: Project[] = [
 		tab: "WordPress",
 		img: megamart,
 		imgBig: megamartBig,
-		liveSiteLink: "https://adamchereshniuk.tilda.ws/megamart",
+		liveSiteLink: "https://chereshniuk.tilda.ws/megamart",
 	},
 	{
 		id: "wordpress-12",
@@ -583,7 +586,7 @@ export const projects: Project[] = [
 		tab: "WordPress",
 		img: coca,
 		imgBig: cocaBig,
-		liveSiteLink: "https://adamchereshniuk.tilda.ws/coca",
+		liveSiteLink: "https://chereshniuk.tilda.ws/coca",
 		multipages: true,
 	},
 	{
@@ -594,7 +597,7 @@ export const projects: Project[] = [
 		tab: "WordPress",
 		img: sos,
 		imgBig: sosBig,
-		liveSiteLink: "https://adamchereshniuk.tilda.ws/sos",
+		liveSiteLink: "https://chereshniuk.tilda.ws/sos",
 	},
 	{
 		id: "wordpress-14",
@@ -602,8 +605,9 @@ export const projects: Project[] = [
 		description: "Одностраничный сайт интернет-магазина.",
 		skills: "Tilda",
 		tab: "WordPress",
-		img: in_work,
-		imgBig: in_workBig,
+		img: coral,
+		imgBig: coralBig,
+		liveSiteLink: "https://chereshniuk.tilda.ws/coral",
 	},
 	{
 		id: "wordpress-15",

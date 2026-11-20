@@ -430,10 +430,10 @@ html, body {
 }
 
 .services__item-btns {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	align-items: stretch;
-	gap: 24px;
-	width: fit-content;
+	gap: 20px;
 }
 
 .services__item-btns a {
@@ -441,7 +441,7 @@ html, body {
 	justify-content: center;
 	align-items: center;
 	gap: 12px;
-	width: max-content;
+	width: 100%;
 	padding: 12px 24px;
 }
 
