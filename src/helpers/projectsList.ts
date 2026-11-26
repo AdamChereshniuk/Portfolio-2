@@ -103,8 +103,8 @@ import megamartBig from "./../img/projects/megamart.png";
 import coca from "./../img/projects/coca.png";
 import cocaBig from "./../img/projects/coca.png";
 
-import zaimberu from "./../img/projects/zaimberu.png";
-import zaimberuBig from "./../img/projects/zaimberu.png";
+import zaymberu from "./../img/projects/zaymberu.png";
+import zaymberuBig from "./../img/projects/zaymberu.png";
 
 import hotel from "./../img/projects/hotel.png";
 import hotelBig from "./../img/projects/hotel.png";
@@ -156,6 +156,15 @@ import sosBig from "./../img/projects/sos.png";
 
 import coral from "./../img/projects/coral.png";
 import coralBig from "./../img/projects/coral.png";
+
+import engineerCenter from "./../img/projects/engineerCenter.png";
+import engineerCenterBig from "./../img/projects/engineerCenter.png";
+
+import stroykes from "./../img/projects/stroykes.png";
+import stroykesBig from "./../img/projects/stroykes.png";
+
+import cryptoMaximum from "./../img/projects/cryptoMaximum.png";
+import cryptoMaximumBig from "./../img/projects/cryptoMaximum.png";
 
 import in_work from "./../img/projects/in_work.png";
 import in_workBig from "./../img/projects/in_work.png";
@@ -624,11 +633,11 @@ export const projects: Project[] = [
 		id: "vibecoding-1",
 		title: "ЗаймБеру",
 		description: "Многостраничный сайт компании ЗаймБеру.",
-		skills: "Wuna AI",
+		skills: "Архитект AI",
 		tab: "Vibecoding",
-		img: zaimberu,
-		imgBig: zaimberuBig,
-		liveSiteLink: "https://zaimberu.wuna.ai/",
+		img: zaymberu,
+		imgBig: zaymberuBig,
+		liveSiteLink: "https://zaymberu.arkhitekt.site",
 		multipages: true,
 	},
 	{
@@ -762,6 +771,36 @@ export const projects: Project[] = [
 		img: dances,
 		imgBig: dancesBig,
 		liveSiteLink: "https://www.figma.com/proto/f7WC735N3Blk3M1NxGBI2o/Танцы?node-id=3-2&p=f&t=n55ZFenZO9KExlJx-0&scaling=contain&content-scaling=fixed&page-id=0%3A1",
+	},
+	{
+		id: "webdesign-13",
+		title: "Инженерный центр",
+		description: "Макет первого экрана сайта инженерного центра.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: engineerCenter,
+		imgBig: engineerCenterBig,
+		liveSiteLink: "https://www.figma.com/proto/YqrThwmOJcrtdUD6sKhhBf/Heating?node-id=1-14&p=f&t=PhJLru7m5nFbrtAP-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+	},
+	{
+		id: "webdesign-14",
+		title: "СТРОЙКЭС",
+		description: "Макет первого экрана сайта строительной компании.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: stroykes,
+		imgBig: stroykesBig,
+		liveSiteLink: "https://www.figma.com/proto/Ts8KAO5xF1ZO8smAMlMHsu/СТРОЙКЭС?node-id=1-2&p=f&t=cAXNIWiBmkORG63q-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+	},
+	{
+		id: "webdesign-15",
+		title: "Crypto Maximum",
+		description: "Макет первого экрана сайта криптовалютной компании.",
+		skills: "Figma",
+		tab: "Web-design",
+		img: cryptoMaximum,
+		imgBig: cryptoMaximumBig,
+		liveSiteLink: "https://www.figma.com/proto/kZhO2r5SFMxJbusolzQTVC/Crypto?node-id=2-3&p=f&t=HTx0GojSHDxnQNTJ-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
 	},
 ];
 
